@@ -1,0 +1,92 @@
+/* 
+Reset
+*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        font-size: 62.5%;
+    }
+
+    body{
+        font-size: 2rem;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    input {
+        border-color: transparent;
+        width: 4rem;
+        height: 4rem;
+    }
+/**/
+
+
+/* 
+Title
+*/
+    h1 {
+        margin: auto;
+        padding-bottom: 10rem;
+        transition: all .3s;
+        font-weight: 100;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    h1.light{
+        color: white;
+    }
+    h1 a {
+        display: block;
+        font-size: 7rem;
+        text-transform: none;
+        font-weight: 900;
+    }
+/**/
+
+
+/* 
+Layout
+*/
+    header, footer {
+        position: fixed;
+        background: #ffffff;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    }
+
+    header {
+        top: -.6rem;
+        padding: 0 1rem 1rem 1rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    main{
+        display: flex;
+        height: 100vh;
+        background: #c20a0a;
+    }
+
+    footer {
+        color: #c20a0a;
+        font-size: 1rem;
+        text-transform: uppercase;
+        position: fixed;
+        left: 50%;
+        bottom: 0;
+        padding: 1rem;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+/**/
